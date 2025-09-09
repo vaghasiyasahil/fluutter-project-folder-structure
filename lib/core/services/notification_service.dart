@@ -21,7 +21,7 @@ class NotificationService {
     );
 
     Get.log('firebase :: User granted permission: ${settings.authorizationStatus}');
-    const AndroidInitializationSettings initializationSettingsAndroid = AndroidInitializationSettings('mylogo');
+    const AndroidInitializationSettings initializationSettingsAndroid = AndroidInitializationSettings('@mipmap/ic_launcher');
 
     const DarwinInitializationSettings initializationSettingsDarwin = DarwinInitializationSettings(
       requestAlertPermission: true,
