@@ -9,6 +9,9 @@ class AppName extends StatelessWidget {
     return GetMaterialApp(
       getPages: Pages().pages,
       initialRoute: Routes.splashScreen,
+      initialBinding: BindingsBuilder(() {
+        Get.put(InternetController());
+      }),
       theme: ThemeData(
         useMaterial3: true,
         splashColor: AppColors.kGrey.withValues(alpha: 0.1),
