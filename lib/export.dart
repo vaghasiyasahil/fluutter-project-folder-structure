@@ -18,7 +18,8 @@ export 'package:firebase_auth/firebase_auth.dart';
 export 'package:device_info_plus/device_info_plus.dart';
 export 'package:crypto/crypto.dart';
 export 'package:image_picker/image_picker.dart';
-
+export 'dart:async';
+export 'package:connectivity_plus/connectivity_plus.dart';
 
 
 
